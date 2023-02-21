@@ -10,7 +10,7 @@ return [
      |
      */
     'general' => [
-        'base_url' => env('APP_URL'),
+        'base_url' => env('206.81.9.254'),
         'language' => 'en',
         'assets_url' => '/assets',
         'uploads_url' => '/uploads'
@@ -28,10 +28,10 @@ return [
         'use_database' => true,
         'database' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST').':'.env('DB_PORT',3306),
-            'database'  => env('DB_DATABASE'),
-            'username'  => env('DB_USERNAME'),
-            'password'  => env('DB_PASSWORD'),
+            'host'      => env('206.81.9.254').':'.env('DB_PORT',3306),
+            'database'  => env('pagebuilderdb'),
+            'username'  => env('forge'),
+            'password'  => env('password'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => 'pagebuilder__',
@@ -53,7 +53,7 @@ return [
         'class' => PHPageBuilder\Modules\Auth\Auth::class,
         'url' => '/admin/auth',
         'username' => 'admin',
-        'password' => 'changethispassword'
+        'password' => 'password'
     ],
 
     /*
