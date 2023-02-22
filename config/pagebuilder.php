@@ -28,10 +28,10 @@ return [
         'use_database' => true,
         'database' => [
             'driver'    => 'mysql',
-            'host'      => env('db-mysql-nyc1-64051-do-user-13473365-0.b.db.ondigitalocean.com').':'.env('DB_PORT',25060),
+            'host'      => env('db-mysql-nyc1-36875-do-user-13473365-0.b.db.ondigitalocean.com').':'.env('DB_PORT',25060),
             'database'  => env('defaultdb'),
             'username'  => env('doadmin'),
-            'password'  => env('AVNS_BlBbiLZvtaTQi6DvnsQ'),
+            'password'  => env('AVNS_VB-Nfvh7l2Lh-y81uo4'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => 'pagebuilder__',
